@@ -57,6 +57,8 @@ void loop() {
 
 ```
 ### Kontrol Paneli ve Blok Diyagramı
+<img width="593" alt="Blok diyagramı" src="https://user-images.githubusercontent.com/93606005/172056337-a894e6a9-31f1-4923-a059-bdba49d85fbd.png">
+<img width="669" alt="front panel" src="https://user-images.githubusercontent.com/93606005/172056367-e9c9f6f6-3064-4dcb-8acd-739260bb7f46.png">
 
 ### Arduino ve Kontrol Paneli Çıktıları
 
