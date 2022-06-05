@@ -8,14 +8,13 @@
 ### Öğrenci Numarası: 170519046
 ### Kullanılan Malzemeler
 - Arduino UNO
-- Water Sensor
-- Buzzer Modul
+- Su Seviyesi Sensörü
+- Buzzer Aktif Ses Modülü
 - Erkek-Erkek Jumper Kablo
 - Dişi-Erkek Jumper Kablo 
 
 ### Devrenin Board Tasarımı
-**Esp üzerinden gerilim bölücü yardımıyla analog veriyi 16 dan  
-3.3V’a indirgeyerek Esp içerisinde Tablo-1 deki karakteristiği baz alınarak If komutu LabWiev yazdırılmıştır.**
+**Arduino UNO kullanılarak su seviyesi kontrolü sağlandı. Kullanılan Su Seviyesi sensörünün iletken hatlarının su ile teması sonucu sensörün çıkış pininde analog bir değer okunmaktadır. Okunan bu değer belirlenen eşik değerinin üstünde olduğu takdirde uyarı vermesi için Buzzer Aktif Ses modülü kullanılmıştır.  **
 
 
 ![image](https://user-images.githubusercontent.com/97916376/172052599-edad374c-dd13-4949-9469-8e60bd0f1e57.png)
