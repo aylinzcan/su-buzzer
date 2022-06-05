@@ -14,19 +14,53 @@
 - Dişi-Erkek Jumper Kablo 
 
 ### Devrenin Board Tasarımı
-**Arduino UNO kullanılarak su seviyesi kontrolü sağlandı. Kullanılan Su Seviyesi sensörünün iletken hatlarının su ile teması sonucu sensörün çıkış pininde analog bir değer okunmaktadır. Okunan bu değer belirlenen eşik değerinin üstünde olduğu takdirde uyarı vermesi için Buzzer Aktif Ses modülü kullanılmıştır. 
+**Arduino UNO kullanılarak su seviyesi kontrolü sağlandı. Kullanılan Su Seviyesi sensörünün iletken hatlarının su ile teması sonucu sensörün çıkış pininde analog bir değer okunmaktadır. Okunan bu değer belirlenen eşik değerinin üstünde olduğu takdirde uyarı vermesi için Buzzer Aktif Ses modülü kullanılmıştır. **
 | Su Seviyesi | Buzzer |
 |--|--|
 | Su Seviyesi<500 | Ses çıkarmaz |
 | Su Seviyesi>500 | Ses çıkarır |
 
-
 <img width="235" alt="Ekran görüntüsü 2022-06-05 174042" src="https://user-images.githubusercontent.com/93606005/172055996-c616f7e6-dbb2-46e6-be87-28a3bec5b7d6.png">
 
-### 
+### Arduino Kod
+```
+//Aylin ÖZCAN 170519046
 
-![image](https://user-images.githubusercontent.com/97916376/172052976-a700a809-fea3-491b-8a50-a0ec030f47e5.png)
-### Gerilim Bölücüden Alınan Max Gerilim**
+int sensor=A0;
+int buzzer=8;
+int esikdegeri=500;
+int suseviyesi;
+
+void setup() {
+  Serial.begin(9600);
+  pinMode(buzzer,OUTPUT);
+  
+}
+
+
+void loop() {
+  suseviyesi=analogRead(sensor);
+//Serial.print("Sensor degeri: ");
+  Serial.println(suseviyesi);
+  delay(100);
+  if(suseviyesi > esikdegeri){
+    digitalWrite(buzzer,HIGH);
+    delay(100);
+    digitalWrite(buzzer,LOW);
+    delay(100);
+  }
+
+  else{
+    digitalWrite(buzzer,LOW);
+    }
+}
+
+```
+### Kontrol Paneli ve Blok Diyagramı
+
+### Arduino ve Kontrol Paneli Çıktıları
+
+
 
 ![image](https://user-images.githubusercontent.com/97916376/172052996-86795c43-b0b6-4056-8a7b-a9bf7717f2e0.png)
 
