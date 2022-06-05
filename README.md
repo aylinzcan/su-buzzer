@@ -18,7 +18,6 @@
 | Su Seviyesi | Buzzer |
 |--|--|
 | Su Seviyesi<500 | Ses çıkarmaz |
-|--|--|
 | Su Seviyesi>500 | Ses çıkarır |
 
 
