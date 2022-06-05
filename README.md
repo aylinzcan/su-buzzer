@@ -20,9 +20,8 @@
 | Su Seviyesi<500 | Ses çıkarmaz |
 | Su Seviyesi>500 | Ses çıkarır |
 
-![image](https://user-images.githubusercontent.com/93606005/172055827-8d410ae4-0615-4f02-bec9-e5e52853faf4.png)
 
-
+<img width="235" alt="Ekran görüntüsü 2022-06-05 174042" src="https://user-images.githubusercontent.com/93606005/172055996-c616f7e6-dbb2-46e6-be87-28a3bec5b7d6.png">
 
 ### Kaynaktan Verilen Max Gerilim
 
