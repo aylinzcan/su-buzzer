@@ -15,7 +15,7 @@
 
 ### Devrenin Board Tasarımı
 
-**Arduino UNO kullanılarak su seviyesi kontrolü sağlandı. Kullanılan Su Seviyesi sensörünün iletken hatlarının su ile teması sonucu sensörün çıkış pininde analog bir değer okunmaktadır. Okunan bu değer belirlenen eşik değerinin üstünde olduğu takdirde uyarı vermesi için Buzzer Aktif Ses modülü kullanılmıştır. **
+Arduino UNO kullanılarak su seviyesi kontrolü sağlandı. Kullanılan Su Seviyesi sensörünün iletken hatlarının su ile teması sonucu sensörün çıkış pininde analog bir değer okunmaktadır. Okunan bu değer belirlenen eşik değerinin üstünde olduğu takdirde uyarı vermesi için Buzzer Aktif Ses modülü kullanılmıştır. 
 | Su Seviyesi | Buzzer |
 |--|--|
 | Su Seviyesi<500 | Ses çıkarmaz |
