@@ -2,8 +2,7 @@
 ## MARMARA ÜNİVERSİTESİ
 ## TEKNOLOJİ FAKÜLTESİ
 ## Elektrik Elektronik Mühendisliği 
-### Ölçme ve Enstrümantasyon
-### LabVIEW Proje (Su Seviyesi Kontrolü)
+## Ölçme ve Enstrümantasyon
 ### Ad-Soyad: Aylin ÖZCAN
 ### Öğrenci Numarası: 170519046
 ### Kullanılan Malzemeler
