@@ -1,11 +1,11 @@
 # su-buzzer
 ## MARMARA ÜNİVERSİTESİ
-## TEKNOLOJİ FAKULTESİ
+## TEKNOLOJİ FAKÜLTESİ
 ## Elektrik Elektronik Mühendisliği 
 ### Ölçme ve Enstrümantasyon
-### LabVIEW Proje (Batarya Ölçme Devresi)
-### Hazırlayan : Aylin ÖZCAN  / 170519046
-
+### LabVIEW Proje (Su Seviyesi Kontrolü)
+### Ad-Soyad: Aylin ÖZCAN
+### Öğrenci Numarası: 170519046
 ### Kullanılan Malzemeler
 - Arduino UNO
 - Water Sensor
@@ -13,7 +13,7 @@
 - Erkek-Erkek Jumper Kablo
 - Dişi-Erkek Jumper Kablo 
 
-### Devrenin tasarımı
+### Devrenin Board Tasarımı
 **Esp üzerinden gerilim bölücü yardımıyla analog veriyi 16 dan  
 3.3V’a indirgeyerek Esp içerisinde Tablo-1 deki karakteristiği baz alınarak If komutu LabWiev yazdırılmıştır.**
 
