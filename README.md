@@ -62,16 +62,25 @@ void loop() {
 
 ### Arduino ve Kontrol Paneli Çıktıları
 -Su Seviyesi sensörüne su teması olmadığında
+
 <img width="792" alt="Arduino sıfır" src="https://user-images.githubusercontent.com/93606005/172056442-298a3625-a20e-4ce1-b869-1b511041c68a.png">
 <img width="671" alt="Labview sıfır" src="https://user-images.githubusercontent.com/93606005/172056533-f5fc2e41-5783-4031-966f-44dc54146078.png">
 
 -Su Seviyesi 570
+
 <img width="794" alt="arduino573" src="https://user-images.githubusercontent.com/93606005/172056581-bbabfa50-6b80-4668-bb7d-ec70bbff62f1.png">
 <img width="651" alt="labview 577" src="https://user-images.githubusercontent.com/93606005/172056590-c8e718cd-eb34-4ede-bd7d-ec2aee9a8b21.png">
 
 -Su Seviyesi  748
+
 <img width="817" alt="arduino 750" src="https://user-images.githubusercontent.com/93606005/172056621-9219bbb5-8f27-4673-a253-216c8293cdbb.png">
 <img width="710" alt="Ekran görüntüsü 2022-06-05 162744" src="https://user-images.githubusercontent.com/93606005/172056609-6d4036b5-e97b-4d52-b03f-88bc7c70547e.png">
+
+| Su Seviyesi | Buzzer |
+|--|--|
+| Su Seviyesi=0| Ses çıkarmaz |
+| Su Seviyesi=570|Ses çıkarır |
+| Su Seviyesi=748 |Ses çıkarır |
 
 
 
