@@ -23,7 +23,7 @@
 
 <img width="235" alt="Ekran görüntüsü 2022-06-05 174042" src="https://user-images.githubusercontent.com/93606005/172055996-c616f7e6-dbb2-46e6-be87-28a3bec5b7d6.png">
 
-### Kaynaktan Verilen Max Gerilim
+### 
 
 ![image](https://user-images.githubusercontent.com/97916376/172052976-a700a809-fea3-491b-8a50-a0ec030f47e5.png)
 ### Gerilim Bölücüden Alınan Max Gerilim**
