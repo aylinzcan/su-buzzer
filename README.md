@@ -20,8 +20,8 @@
 | Su Seviyesi<500 | Ses çıkarmaz |
 | Su Seviyesi>500 | Ses çıkarır |
 
+![image](https://user-images.githubusercontent.com/93606005/172055827-8d410ae4-0615-4f02-bec9-e5e52853faf4.png)
 
-![image](https://user-images.githubusercontent.com/97916376/172052599-edad374c-dd13-4949-9469-8e60bd0f1e57.png)
 
 
 ### Kaynaktan Verilen Max Gerilim
