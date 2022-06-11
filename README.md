@@ -82,6 +82,6 @@ void loop() {
 | Su Seviyesi=570|Ses çıkarır |
 | Su Seviyesi=748 |Ses çıkarır |
 
-
+[LABWİEV DOSYALARINA ERİŞİM LİNKİ ][(https://drive.google.com/drive/folders/1sfm7uOUn1OdS-ZRUzJ6rGv0hdDpRFc0G?usp=sharing)](https://drive.google.com/drive/folders/1qGoCeAHdDEwEiF3CEodmcjsGhMJuUOAf?usp=sharing)
 
 
